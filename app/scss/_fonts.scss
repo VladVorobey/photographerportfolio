@@ -1,0 +1,6 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("raleway-example", "../fonts/RalewayRegular/Raleway-Regular");
+@include font-face("opensans-example", "../fonts/OpenSansBold/OpenSans-Bold",bold);
